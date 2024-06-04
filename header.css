@@ -2,5 +2,18 @@
     width: 24px;
     height: 24px;
     background-image: url("./img/Menu\ Aberto.png");
-    display: inline;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.lista-menu{
+    display: none;
+}
+.container-botao:checked .lista-menu{
+    display: block;
+}
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
 }
