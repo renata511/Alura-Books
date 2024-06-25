@@ -6,10 +6,15 @@
     <title>Alura Books</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
@@ -35,10 +40,12 @@
             <a href="#" class="lista-menu-link">Design & UX</a>
         </li>
     </ul>
-    <img src="./img/image.png" alt="Logo da Alurabooks" class="container-imagem">
-   <a href="#" ><img src="./img/image copy.png" alt="Meus favoritos"></a>
-   <a href="#"><img src="./img/Sacolinha.png" alt="Sacola de compras"></a>
-   <a href="#"><img src="./img/image copy 2.png" alt="Meu perfil"></a>
+    <img src="./img/image.png" alt="Logo da Alurabooks" class="container-imagem ">
+        </div>
+        <div class="container">
+   <a href="#" ><img src="./img/image copy.png" alt="Meus favoritos" class="container-imagem"></a>
+   <a href="#"><img src="./img/Sacolinha.png" alt="Sacola de compras" class="container-imagem"></a>
+   <a href="#"><img src="./img/image copy 2.png" alt="Meu perfil" class="container-imagem"></a>
         </div>
 </header>
 <section class="banner">
@@ -46,14 +53,12 @@
     <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
     <input type="search" class="benner-pesquisa" placeholder="Qual será sua proxima leitura?">
 </section>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <section class="carrossel">
     <h2 class="carrossel-titulo">Novos lançamentos</h2>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.
-
-js"></script>
-<script> 
-<div class ="swiper">
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 const swiper = new Swiper('.swiper', {
 spaceBetween: 10,
 slidesPerview: 3,
