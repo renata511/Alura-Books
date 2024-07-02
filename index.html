@@ -17,9 +17,9 @@
 
 <body>
     <header class="cabecalho">
-        <div class="container">
-    <input type="checkbox" id="menu" class="container-botao">
-    <label for="menu">
+     <div class="container">
+      <input type="checkbox" id="menu" class="container-botao">
+      <label for="menu">
         <span class="cabecalho-menu-hamburguer"></span>
     </label>
     <ul class="lista-menu">
@@ -48,26 +48,52 @@
    <a href="#"><img src="./img/image copy 2.png" alt="Meu perfil" class="container-imagem"></a>
         </div>
 </header>
+
 <section class="banner">
     <h2 class="banner-titulo">Já sabe por onde começar?</h2>
     <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
     <input type="search" class="benner-pesquisa" placeholder="Qual será sua proxima leitura?">
 </section>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
 <section class="carrossel">
     <h2 class="carrossel-titulo">Novos lançamentos</h2>
-</section>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-const swiper = new Swiper('.swiper', {
-spaceBetween: 10,
-slidesPerview: 3,
-pagination: {
-el: '.swiper-pagination',
-type: 'bullets',
-},
-</div>
-});
-</script>
+    <!-- Slider main container -->
+     <div class="swiper">
+    <!-- Additional required wrapper -->
+     <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+            <!-- Slides -->
+             <div class="swiper-slide">Slide 1</div>
+             <div class="swiper-slide">Slide 2</div>
+             <div class="swiper-slide">Slide 3</div>
+             ...
+         </div>
+        <!-- If we need pagination -->
+
+        <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+            </div>
+     <div class="card">
+        <div class="card-descricao">
+            <div class="descricao">
+                <h3 class="descricao-titulo">Talvez você também se interesse por ...</h3>
+                <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
+                <p class="descricao-titulo">Construindo uma aplicação integrada com a plataforma do Google</p>
+            </div>
+        </div>
+     </div>
+         </section>
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+         <script>
+             const swiper = new Swiper('.swiper', {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+    });
+    </script>
 </body>
 </html>
