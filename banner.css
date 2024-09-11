@@ -30,6 +30,6 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url(./img/image\ copy\ 3.png);
+    background: url(./img/image\ copy\ 3.png) no-repeat;
     background-position: 1em;
 }
